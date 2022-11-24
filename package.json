@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alamhamim/ez-lib_wdio.git"
+    "url": "git+https://github.com/alamhamim/ez-library_wdio.git"
   },
   "keywords": [
     "WebdriverIO",
@@ -21,9 +21,9 @@
   "author": "Hamim.A",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alamhamim/ez-lib_wdio/issues"
+    "url": "https://github.com/alamhamim/ez-library_wdio/issues"
   },
-  "homepage": "https://github.com/alamhamim/ez-lib_wdio#readme",
+  "homepage": "https://github.com/alamhamim/ez-library_wdio#readme",
   "dependencies": {
     "wdio": "^6.0.1"
   }
