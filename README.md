@@ -7,16 +7,16 @@
 Use the package manager NPM to install 
 
 ```bash
-npm install @ez-lib/wdio
+npm install @ez-library/wdio
 ```
 
 ## Usage
 
 ```javascript
-const ez = require("@ez-lib/wdio");
+const ez = require("@ez-library/wdio");
 
 describe("Testing made easy with wdio", function(){
-  it("Testing with @ez-lib/wdio", async function(){
+  it("Testing with @ez-library/wdio", async function(){
         await ez.goTo("https://www.google.com/");
         await ez.byClassName("name").click();
         await ez.byId("ID").click();
