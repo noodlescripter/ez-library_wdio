@@ -1,6 +1,6 @@
 {
   "name": "@ez-library/wdio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A JavaScript library to automate web application using wdio, has many helper function",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/alamhamim/ez-library_wdio#readme",
   "dependencies": {
-    "wdio": "^6.0.1"
+    "webdriverio": "^8.0.15"
   }
 }

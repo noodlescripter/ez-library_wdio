@@ -1,0 +1,1 @@
+{"version":3,"file":"webdriverBidi.d.ts","sourceRoot":"","sources":["../../src/commands/webdriverBidi.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,YAAY,EAAE,MAAM,aAAa,CAAA;AAG/C,MAAM,CAAC,OAAO,WAAW,qBAAqB;IAE1C;;;;;;OAMG;IACH,IAAI,CAAC,MAAM,EAAE,MAAM,GAAG,YAAY,CAAC;IAEnC;;;;;;OAMG;IACH,SAAS,CAAC,MAAM,EAAE,MAAM,GAAG,IAAI,CAAC;CACnC"}

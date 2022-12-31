@@ -17,6 +17,12 @@ let webdriverIO_EZ_LIB = function () {
         return sEle;
     }
 
+    this.element = function(ele){
+        if(!ele) error();
+        let sEle = getElement(ele);
+        return sEle;
+    }
+
     this.goTo = function (url) {
         if (!url) error();
         browser.url(url);
@@ -32,6 +38,7 @@ let webdriverIO_EZ_LIB = function () {
         if (mEle) error();
         let sEle = getElement("[name='" + mEle + "']");
         return sEle;
+
     }
 
     this.byClassName = function (mEle) {
@@ -93,6 +100,6 @@ let webdriverIO_EZ_LIB = function () {
             sCss.selectByIndex(sOption);
         })
     }
-}
+} 
 
 module.exports = new webdriverIO_EZ_LIB();
