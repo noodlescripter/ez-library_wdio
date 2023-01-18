@@ -106,7 +106,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const libPath = path.join(__dirname, 'lib/lib');
+const libPath = path.join(__dirname, 'lib');
 
 const exported = {};
 fs.readdirSync(libPath).forEach(file => {

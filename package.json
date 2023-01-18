@@ -4,7 +4,7 @@
   "description": "A JavaScript library to automate web application using wdio, has many helper function",
   "main": "index.js",
   "files": [
-    "lib/lib/*.js"
+    "lib/**"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
