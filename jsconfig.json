@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "types": [
+            "node",
+            "@wdio/globals/types",
+            "@wdio/jasmine-framework"
+        ]
+    }
+}
